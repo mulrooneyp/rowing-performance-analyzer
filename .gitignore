@@ -1,0 +1,28 @@
+# PowerShell specific
+*.ps1xml
+*.psd1
+*.psm1~
+
+# Output files
+*.csv
+*.log
+*.txt
+
+# Temporary files
+*.tmp
+*~
+
+# IDE files
+.vscode/launch.json
+.vscode/tasks.json
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Snapshots (Kiro specific)
+.snapshots/
+
+# Analysis output directories
+AnalysedData/
+exported-sessions/
