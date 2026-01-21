@@ -10,7 +10,15 @@ A PowerShell-based data analysis tool for rowing performance metrics. The system
 - **Efficiency Scoring**: Calculates performance efficiency using speed-to-heart rate ratios with configurable thresholds
 - **Recovery Tracking**: Monitors heart rate recovery patterns during rest periods
 - **Distance Per Stroke (DPS) Analysis**: Tracks stroke efficiency against target thresholds
-- **Multi-format Export**: Generates CSV summaries for further analysis
+- **Individual Stroke Tracking**: Exports detailed stroke-by-stroke data for each work block
+- **Multi-format Export**: Generates CSV summaries and individual stroke files for comprehensive analysis
+
+### Output Files
+
+- **Block_Work_Summary.csv**: Primary analysis results with block-level metrics
+- **Rest_Recovery_Summary.csv**: Recovery pattern data between work intervals
+- **[SessionName]_Stroke_Details.csv**: Individual stroke data for each input session
+- **Log.txt**: Execution logging and debugging information
 
 ### Target Users
 
